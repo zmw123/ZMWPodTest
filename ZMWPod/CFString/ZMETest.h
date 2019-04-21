@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ZMETest : NSObject
-
+- (void)test;
 @end

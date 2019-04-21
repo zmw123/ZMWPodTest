@@ -13,6 +13,7 @@
 		C021DC72226C477F00C916EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C021DC71226C477F00C916EE /* Assets.xcassets */; };
 		C021DC75226C477F00C916EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C021DC73226C477F00C916EE /* LaunchScreen.storyboard */; };
 		C021DC78226C477F00C916EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C021DC77226C477F00C916EE /* main.m */; };
+		C021DC83226C486000C916EE /* ZMETest.m in Sources */ = {isa = PBXBuildFile; fileRef = C021DC82226C486000C916EE /* ZMETest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		C021DC74226C477F00C916EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C021DC76226C477F00C916EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C021DC77226C477F00C916EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C021DC7E226C47D600C916EE /* ZMWPodTest.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = ZMWPodTest.podspec; path = ../../ZMWPodTest.podspec; sourceTree = "<group>"; };
+		C021DC81226C486000C916EE /* ZMETest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMETest.h; sourceTree = "<group>"; };
+		C021DC82226C486000C916EE /* ZMETest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMETest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		C021DC5C226C477E00C916EE = {
 			isa = PBXGroup;
 			children = (
+				C021DC7E226C47D600C916EE /* ZMWPodTest.podspec */,
 				C021DC67226C477F00C916EE /* ZMWPodTest */,
 				C021DC66226C477F00C916EE /* Products */,
 			);
@@ -58,6 +63,7 @@
 		C021DC67226C477F00C916EE /* ZMWPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				C021DC7F226C484900C916EE /* ZMWPod */,
 				C021DC68226C477F00C916EE /* AppDelegate.h */,
 				C021DC69226C477F00C916EE /* AppDelegate.m */,
 				C021DC6B226C477F00C916EE /* ViewController.h */,
@@ -69,6 +75,24 @@
 				C021DC77226C477F00C916EE /* main.m */,
 			);
 			path = ZMWPodTest;
+			sourceTree = "<group>";
+		};
+		C021DC7F226C484900C916EE /* ZMWPod */ = {
+			isa = PBXGroup;
+			children = (
+				C021DC80226C484900C916EE /* CFString */,
+			);
+			name = ZMWPod;
+			path = ../../../ZMWPod;
+			sourceTree = "<group>";
+		};
+		C021DC80226C484900C916EE /* CFString */ = {
+			isa = PBXGroup;
+			children = (
+				C021DC81226C486000C916EE /* ZMETest.h */,
+				C021DC82226C486000C916EE /* ZMETest.m */,
+			);
+			path = CFString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C021DC83226C486000C916EE /* ZMETest.m in Sources */,
 				C021DC6D226C477F00C916EE /* ViewController.m in Sources */,
 				C021DC78226C477F00C916EE /* main.m in Sources */,
 				C021DC6A226C477F00C916EE /* AppDelegate.m in Sources */,
